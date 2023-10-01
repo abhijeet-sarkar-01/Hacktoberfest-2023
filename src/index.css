@@ -204,6 +204,55 @@
   }
 }
 
+
+footer{
+  background-color: #100D25;
+  display: flex;
+  height: 3.5rem;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+
+ion-icon{
+  margin-top: 8px;
+  font-size: 1.5rem;
+  transition: 0.2s all;
+}
+
+.linkedin-logo:hover{
+  color: #0072b1;
+}
+
+.instagram-logo:hover{
+  color: #d62976;
+}
+
+.twitter-logo:hover{
+  color: #00acee;
+}
+
+.youtube-logo:hover{
+  color: #c4302B;
+}
+
+.github-logo:hover{
+  color: #b9b9b9;
+}
+
+@media (max-width: 768px){
+  
+  footer{
+    height: 3.5rem;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+  }
+
+  ion-icon{
+    font-size: 1rem;
+  }
+
 .smooth-scroll-wrapper{
 	width: 100%;
 	position: fixed;
@@ -224,4 +273,5 @@
 ::-webkit-scrollbar-thumb {
   background: #915EFF; 
   border-radius: 10px;
+
 }

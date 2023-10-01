@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import { BrowserRouter } from "react-router-dom";
 import {
   About,
@@ -9,7 +10,8 @@ import {
   Tech,
   Works,
   StarsCanvas,
-  SmoothScroll,
+  Footer,
+  SmoothScroll
 } from "./components";
 
 const App = () => {
@@ -28,6 +30,13 @@ const App = () => {
           <Works />
           <Feedbacks />
 
+        <div className="relative z-0">
+          <Contact />
+          {/* <StarsCanvas /> */}
+         
+        </div>
+        <Footer />
+      </div>
           <div className="relative z-0">
             <Contact />
             {/* <StarsCanvas /> */}
